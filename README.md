@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Proje Hakkında
+## Proje Hakkında
 
 Bu projede büyük bir PostgreSQL veritabanı üzerinde performans analizi yapılmış ve optimizasyon teknikleri uygulanmıştır. Proje kapsamında aşağıdaki konular ele alınmaktadır:
 
@@ -16,7 +16,7 @@ Bu projede büyük bir PostgreSQL veritabanı üzerinde performans analizi yapı
 
 ---
 
-## 🛠️ Kullanılan Araçlar
+## Kullanılan Araçlar
 
 | Araç | Sürüm | Açıklama |
 |------|-------|----------|
@@ -27,7 +27,7 @@ Bu projede büyük bir PostgreSQL veritabanı üzerinde performans analizi yapı
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 ```
 blm4522-proje1-db-performance/
@@ -42,14 +42,16 @@ blm4522-proje1-db-performance/
 │   ├── 04_optimizasyon.sql # Sorgu optimizasyonu
 │   └── 05_roller.sql       # Rol ve yetki yönetimi
 └── ekran_goruntuleri/
-    ├── izleme/
-    ├── indexler/
-    └── roller/
+    ├── izleme.png           # İzleme sonuçları
+    ├── explain.png          # EXPLAIN ANALYZE sonuçları
+    ├── indexler.png         # İndeks yönetimi sonuçları
+    └── roller.png           # Rol ve yetki yönetimi sonuçları
+
 ```
 
 ---
 
-## 🔍 Yapılan Çalışmalar
+## Yapılan Çalışmalar
 
 ### 1. Veritabanı İzleme
 PostgreSQL'de MSSQL'deki Dynamic Management Views (DMV) karşılığı olarak `pg_stat_activity` ve `pg_stat_user_tables` sistem görünümleri kullanılmıştır. `pg_stat_statements` extension'ı aktif edilerek sorgu istatistikleri toplanmıştır.
@@ -98,14 +100,5 @@ WHERE idx_scan = 0;
 | `operatör` | SELECT, INSERT, UPDATE |
 | `veri_yoneticisi` | Tam yetki |
 
----
-
-## 📊 Veritabanı Şeması
-
-DVD Rental veritabanı 15 tablodan oluşmaktadır:
-
-`actor` · `address` · `category` · `city` · `country` · `customer` · `film` · `film_actor` · `film_category` · `inventory` · `language` · `payment` · `rental` · `staff` · `store`
-
----
 
 
