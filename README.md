@@ -42,10 +42,16 @@ blm4522-proje1-db-performance/
 │   ├── 04_optimizasyon.sql # Sorgu optimizasyonu
 │   └── 05_roller.sql       # Rol ve yetki yönetimi
 └── ekran_goruntuleri/
-    ├── izleme.png           # İzleme sonuçları
-    ├── explain.png          # EXPLAIN ANALYZE sonuçları
-    ├── indexler.png         # İndeks yönetimi sonuçları
-    └── roller.png           # Rol ve yetki yönetimi sonuçları
+    ├── adim-1.png       
+    ├── adim-2.png       
+    ├── adim-3.png       
+    ├── adim-4.png           
+    ├── adim-5.png       
+    ├── adim-6.png       
+    ├── adim-7.png           
+    ├── adim-8.png     
+    ├── adim-9.png     
+    └── adim-10.png      
 
 ```
 
