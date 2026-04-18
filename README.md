@@ -1,7 +1,7 @@
 # BLM4522 — Proje 1: Veritabanı Performans Optimizasyonu ve İzleme
 
 > 22290742 - ŞEVVAL ENSARİOĞLU    
-> **Video Linki:** (Çekildiğinde eklenecektir...)       
+> **Video Linki:** https://youtu.be/vtqeppOoIH8
 
 ---
 
@@ -32,15 +32,15 @@ Bu projede büyük bir PostgreSQL veritabanı üzerinde performans analizi yapı
 ```
 blm4522-proje1-db-performance/
 │
-├── README.md               # Bu dosya
+├── README.md
 ├── rapor/
-│   └── rapor.pdf           # Proje raporu
+│   └── rapor.pdf           
 ├── sql/
-│   ├── 01_izleme.sql       # İzleme sorguları
-│   ├── 02_explain.sql      # EXPLAIN ANALYZE sorguları
-│   ├── 03_indexler.sql     # İndeks yönetimi
-│   ├── 04_optimizasyon.sql # Sorgu optimizasyonu
-│   └── 05_roller.sql       # Rol ve yetki yönetimi
+│   ├── 01_izleme.sql   
+│   ├── 02_explain.sql    
+│   ├── 03_indexler.sql
+│   ├── 04_optimizasyon.sql 
+│   └── 05_roller.sql    
 └── ekran_goruntuleri/
     ├── adim-1.png       
     ├── adim-2.png       
@@ -52,7 +52,6 @@ blm4522-proje1-db-performance/
     ├── adim-8.png     
     ├── adim-9.png     
     └── adim-10.png      
-
 ```
 
 ---
